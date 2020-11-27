@@ -1,6 +1,6 @@
 .\Scripts\activate
 pyinstaller index.py -F `
---name "classrecorder-windows"
+--name "classrecorder-windows" `
 --hidden-import xlsxwriter `
 --hidden-import pynput `
 --hidden-import xlrd `
