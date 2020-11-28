@@ -1,0 +1,3 @@
+__pycache__ linguist-vendored
+build/* linguist-vendored
+*.spec linguist-vendored
