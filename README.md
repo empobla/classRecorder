@@ -20,7 +20,7 @@ A cross-platform (OSX & Windows) console-line application that performs user ope
 - xlrd
 - pyinstaller
 
-The recommended screen recording software for using with this proyect is [screenrec](https://screenrec.com).
+The recommended screen recording software for using with this project is [screenrec](https://screenrec.com).
 
 ## Installation and Usage
 Guide for installation and usage.
@@ -56,6 +56,11 @@ Alternatively, the program can be run through terminal with the usage of the fol
 ```sh
 python index.py
 ```
+
+### Windows Automation Through Task Scheduler
+To set up Windows Automation through Task Scheduler, edit the `runscript.bat` file under the `./winautomation` directory and add a path to both the .exe file within the `./dist` directory and index.py. After this, open Windows Task Scheduler, create a new task, schedule it to run whenever you need it to run, and target the `./winautomation/runscript.bat` file and run the task in the project's directory. 
+
+Additionally, you can schedule another task to run the `./winautomation/sleep.bat` file to sleep your computer after automation has ended. 
 
 ## Making Changes to the Class Recorder Driver File
 If you want to make changes to the class recorder driver file, you can simply follow one of these options:
