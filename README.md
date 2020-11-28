@@ -78,7 +78,7 @@ Edit the .xlsx file in the `./classrec` directory following the same format as t
 **Note:** Installing Python with **pyenv** for usage with pyinstaller requires the following command in the installation:
 
 ```sh
-env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install 3.7.6
+env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install 3.8.1
 ```
 
 And then installing dependencies with pip.
