@@ -74,3 +74,11 @@ Edit the .xlsx file in the `./classrec` directory following the same format as t
 ---
 
 **Note:** This program will only read 1 .xlsx file within the `./classrec` directory. If more than one file exists within that directory, it will pick one and run it. Make sure to only have 0 or 1 .xlsx file within the `./classrec` directory at a time to ensure the program works the way you would expect it to work.
+
+**Note:** Installing Python with **pyenv** for usage with pyinstaller requires the following command in the installation:
+
+```sh
+env PYTHON_CONFIGURE_OPTS="--enable-framework" pyenv install 3.7.6
+```
+
+And then installing dependencies with pip.
