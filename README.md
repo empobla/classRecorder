@@ -1,7 +1,7 @@
 # Class Recorder
 A cross-platform (OSX & Windows) console-line application that performs user open class, start record, stop record, and close class functions automatically and records input Zoom classes automatically.
 
-## What I Learned
+## Abilities Mastered
 - Use of Python to read and write to and from an excel file
 - Usage of Python to run automated tasks with pyautogui
 - Usage of Python to log mouse coordinates with pynput
